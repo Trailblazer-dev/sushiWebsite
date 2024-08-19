@@ -1,0 +1,155 @@
+------HOME
+
+title
+    Sushi Bliss, Every Roll a Flavorful Kiss
+
+subtitle
+    Masters of Maki: Elevate Your Taste Buds with Our Sushi Creations, Where Tradition Meets Innovation!
+
+buttons
+    Order Now Button
+    Watch Video 
+
+comments
+    Best Sushi Ever 
+
+
+------Popular 
+
+subtitle
+    CUSTOMER FAVORITES
+
+title
+    Popular Categories
+
+card title
+    Main Dish
+    Break Fast
+    Sushi Combo
+    Browse All
+
+
+card subtitle
+    (86 dishes)
+    (12 break fast)
+    (Combo of 6)
+    (255 Items)
+
+------Menu
+
+subtitle
+    SPECIAL DISHES
+
+title
+    Best Dishes From Our Menu
+
+card title
+    Best Sushi Salad
+    Zen Zest Sashimi Salad
+    Seaside Sushi Salad
+
+card description
+    Description of the item
+
+card price
+    $10.00
+    $22.00
+    $18.00
+
+
+-------About
+
+subtitle
+    TESTIMONIALS
+
+title
+    What Our Customers Say About Us
+
+description
+    “I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”
+
+testimonial
+    Customer Feedback
+    (18.6k Reviews)
+
+
+comments
+    Our Best Chef 😁
+
+
+-------Services
+
+subtitle
+    OUR STORY & SERVICES
+
+title
+    Our Culinary Journey And Services
+
+description
+    Rooted in passion, we curate unforgettable dining experiences and offer exceptional services, blending culinary artistry with warm hospitality.
+
+button
+    EXPLORE
+
+service title 
+    CATERING
+    FAST DELIVERY
+    ONLINE ORDERING
+    GIFT CARDS
+
+
+service description
+    Delight your guests with our flavors and presentation
+    We deliver your order promptly to your door
+    Explore menu & order with ease using our Online Ordering
+    Give the gift of exceptional dining with Foodi Gift Cards
+
+
+-------Contact
+
+section1
+
+title
+    LOGO
+
+description
+    Savor the artistry where every dish is a culinary masterpiece
+
+section2
+
+title
+    Useful links
+
+list
+    About us
+    Events
+    Blogs
+    FAQ
+
+
+section3
+
+title
+    Main Menu
+
+list
+    Home
+    Offers
+    Menus
+    Reservation
+
+section4
+
+title
+    Contact Us
+
+list
+    example@email.com
+    +64 958 248 966
+    Social media
+
+
+------Footer
+Copyright &copy; 2023 Dscode | All rights reserved
+
+
