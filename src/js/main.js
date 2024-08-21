@@ -3,6 +3,7 @@
 const dropdownIcon = document.getElementById("dropdown-icon");
 const dropdownMenu = document.getElementById("dropdown-menu");
 const dropdownList = document.querySelectorAll('.dropdown-list');
+const Zone = document.getElementById("zone");
 
 dropdownIcon.addEventListener('click', () => {
     dropdownMenu.classList.toggle('hidden');
@@ -10,6 +11,9 @@ dropdownIcon.addEventListener('click', () => {
         list.addEventListener('click', ()=> {
             dropdownMenu.classList.toggle('hidden');
         })
+    })
+    Zone.addEventListener('mouseleave',()=>{
+        dropdownMenu.classList.toggle('hidden');
     })
 });
 // services dropdown
@@ -25,3 +29,19 @@ dropdown2Icon.addEventListener('click', () => {
         })
     })
 });
+
+// mobile nav-bar
+const navMenu = document.getElementById('nav-menu');
+const navBar = document.getElementById('nav-bar');
+navMenu.addEventListener('click', ()=> {
+    navBar.classList.toggle('hidden');
+    navMenu.classList.toggle("ri-close-large-line")
+})
+
+const navLink = document.querySelectorAll('.nav__link');
+navLink.forEach(link => {
+    link.addEventListener('click', ()=> {
+        navBar.classList.toggle('hidden');
+        navMenu.classList.toggle("ri-close-large-line")
+    })
+})
