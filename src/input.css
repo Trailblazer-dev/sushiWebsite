@@ -7,3 +7,12 @@
 .nav__link{
     @apply hover:text-secondaryColor;
 }
+.header-shadow{
+    @apply shadow-md shadow-sky-100;
+}
+.container{
+    @apply mx-[1.5rem];
+}
+.btn{
+    @apply bg-secondaryColor px-3 py-1 rounded-2xl text-white cursor-pointer shadow-lg shadow-green-700 hover:scale-110 ease-in-out;
+}

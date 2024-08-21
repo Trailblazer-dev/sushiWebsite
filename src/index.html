@@ -16,15 +16,20 @@
   </head>
   <body class="bg-bodyColor font-sans">
     <!-- header -->
-    <header class="fixed bg-bodyColor h-14 w-full z-50 items-center flex justify-center">
+    <header
+      class="fixed top-0 left-0 bg-bodyColor h-14 w-full z-50 items-center flex justify-center " id="header"
+    >
       <nav class="flex justify-around items-center w-full sm:justify-evenly">
-        <div class="font-bold text-3xl ">
+        <div class="font-bold text-3xl">
           <span class="bg-secondaryColor px-1 text-white rounded-lg">S</span
           >ushi
         </div>
-        <div class="absolute bg-bodyColor w-full  left-0 top-0 hidden z-20 shadow-md shadow-stone-600 md:static  md:flex md:bg-none md:shadow-none md:justify-center md:w-fit " id="nav-bar">
+        <div
+          class="absolute bg-bodyColor w-full left-0 top-0 hidden z-20 shadow-md shadow-stone-600 md:static md:flex md:bg-none md:shadow-none md:justify-center md:w-fit"
+          id="nav-bar"
+        >
           <ul
-            class="flex flex-col justify-center items-center space-y-4 text-center font-semibold text-sm mb-4 md:flex-row  md:space-y-0 md:space-x-2 md:mb-0"
+            class="flex flex-col justify-center items-center space-y-4 text-center font-semibold text-sm mb-4 md:flex-row md:space-y-0 md:space-x-2 md:mb-0 lg:space-x-8"
           >
             <li class="mt-4 md:mt-0">
               <a href="#home" class="nav__link">Home</a>
@@ -32,27 +37,27 @@
             <li class="flex justify-center md:items-center">
               <a href="#menu" class="nav__link">Menu</a>
               <div class="md:relative" id="zone">
-              <div class="hover:translate-y-1  duration-100 ease-in">
-                <i
-                  class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
-                  id="dropdown-icon"
-                ></i>
-              </div>
-              <div
-                class="flex  flex-col font-normal text-normal hidden md:absolute"
-                id="dropdown-menu"
-              >
-                <a
-                  href="#popular"
-                  class="hover:text-secondaryColor dropdown-list"
-                  >Popular</a
+                <div class="hover:translate-y-1 duration-100 ease-in">
+                  <i
+                    class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
+                    id="dropdown-icon"
+                  ></i>
+                </div>
+                <div
+                  class="flex flex-col font-normal text-normal hidden md:absolute"
+                  id="dropdown-menu"
                 >
-                <a
-                  href="#Special"
-                  class="hover:text-secondaryColor dropdown-list"
-                  >Special</a
-                >
-              </div>
+                  <a
+                    href="#popular"
+                    class="hover:text-secondaryColor dropdown-list"
+                    >Popular</a
+                  >
+                  <a
+                    href="#Special"
+                    class="hover:text-secondaryColor dropdown-list"
+                    >Special</a
+                  >
+                </div>
               </div>
             </li>
             <li>
@@ -60,57 +65,85 @@
             </li>
             <li class="flex justify-center md:items-center">
               <a href="#services" class="nav__link">Services</a>
-              <div class="md:relative focus:flex">
-              <div class="hover:translate-y-1 duration-100 ease-in">
-                <i
-                  class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
-                  id="dropdown2-icon"
-                ></i>
-              </div>
-              <div
-                class="flex flex-col font-normal text-normal hidden  md:absolute"
-                id="dropdown2-menu"
-              >
-                <a
-                  href="#"
-                  class="hover:text-secondaryColor dropdown2-list"
-                  >Cafetering</a
+              <div class="md:relative" id="zone2">
+                <div class="hover:translate-y-1 duration-100 ease-in">
+                  <i
+                    class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
+                    id="dropdown2-icon"
+                  ></i>
+                </div>
+                <div
+                  class="flex flex-col font-normal text-normal hidden md:absolute"
+                  id="dropdown2-menu"
                 >
-                <a
-                  href="#S"
-                  class="hover:text-secondaryColor dropdown2-list"
-                  >Fast Delivery</a
-                >
-                <a
-                  href="#S"
-                  class="hover:text-secondaryColor dropdown2-list"
-                  >Online Delivery</a
-                >
-              </div>
+                  <a href="#" class="hover:text-secondaryColor dropdown2-list"
+                    >Cafetering</a
+                  >
+                  <a href="#S" class="hover:text-secondaryColor dropdown2-list"
+                    >Fast Delivery</a
+                  >
+                  <a href="#S" class="hover:text-secondaryColor dropdown2-list"
+                    >Online Delivery</a
+                  >
+                </div>
               </div>
             </li>
-            <li >
+            <li>
               <a href="#offers" class="nav__link">Offers</a>
             </li>
           </ul>
         </div>
-        <div class="flex justify-center items-center space-x-8 sm:justify-between">
+        <div
+          class="flex justify-center items-center space-x-8 sm:justify-between"
+        >
           <label for="search" class="flex">
-          <input type="search" name="search" id="search" class="hidden hover:flex w-[50px] sm:w-[120px] outline-none bg-slate-200 rounded-2xl pl-2" /><i class="ri-search-line hover:text-secondaryColor"></i> </label>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              class="hidden hover:flex w-[50px] sm:w-[120px] outline-none bg-slate-200 rounded-2xl pl-2"
+            /><i class="ri-search-line hover:text-secondaryColor"></i>
+          </label>
           <div class="relative cursor-pointer">
-            <i class="ri-shopping-bag-line hover:text-secondaryColor text-lg"><span class="absolute h-3 w-3 flex justify-center items-center  bg-secondaryColor text-white rounded-full text-xs  px-2 -right-1 top-0 z-10">8</span></i>
+            <i class="ri-shopping-bag-line hover:text-secondaryColor text-lg"
+              ><span
+                class="absolute h-3 w-3 flex justify-center items-center bg-secondaryColor text-white rounded-full text-xs px-2 -right-1 top-0 z-10"
+                >8</span
+              ></i
+            >
           </div>
-          <div class="bg-secondaryColor px-3 py-1 rounded-2xl text-white  cursor-pointer shadow-lg shadow-green-700 hover:scale-110 ease-in-out">
+          <div
+            class="bg-secondaryColor px-3 py-1 rounded-2xl text-white cursor-pointer shadow-lg shadow-green-700 hover:scale-110 ease-in-out"
+          >
             <i class="ri-phone-line text-lg"></i>
             Contact
           </div>
         </div>
-        <div class="hover:scale-110 ease-in-out hover:text-secondaryColor z-40 md:hidden"><i class="ri-menu-line text-lg " id="nav-menu"></i></div>
+        <div
+          class="hover:scale-110 ease-in-out hover:text-secondaryColor z-40 md:hidden"
+        >
+          <i class="ri-menu-line text-lg" id="nav-menu"></i>
+        </div>
       </nav>
     </header>
     <!-- main -->
     <main class="">
       <!-- home -->
+       <section class="" id="home">
+        <div class="container mt-16 flex flex-col justify-center items-center">
+          <div class="">
+            <h2 class="text-3xl font-extrabold tracking-widest mb-4 text-center">Sushi Bliss, Every Roll a Flavorful <span class="text-secondaryColor"> Kiss</span></h2>
+            <p class="text-descriptionColor text-lg mb-4">Masters of Maki: Elevate Your Taste Buds with Our Sushi Creations, Where Tradition Meets Innovation!</p>
+            <div class="flex gap-2 justify-center items-center font-bold text-xl">
+              <button class="btn ">Order Now </button>
+              <button class="text-descriptionColor ">Watch Video<i class="ri-play-large-fill"></i></button>
+            </div>
+          </div>
+          <div class="">
+            <img src="img/home.png" alt="image">
+          </div>
+        </div>
+       </section>
 
       <!-- popular -->
 
