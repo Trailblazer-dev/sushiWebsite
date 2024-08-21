@@ -9,7 +9,7 @@
       rel="stylesheet"
     />
     <!-- favicon logo -->
-    <link rel="shortcut icon" href="./img/37925.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/37925.jpg" type="image/x-icon" />
     <!-- stylecss -->
     <link rel="stylesheet" href="output.css" />
     <title>sushi website</title>
@@ -17,53 +17,112 @@
   <body class="bg-bodyColor font-sans">
     <!-- header -->
     <header class="fixed bg-bodyColor h-12 w-full z-50">
-        <nav class="flex justify-around items-center">
-            <div class="font-bold text-3xl"><span class="bg-secondaryColor px-1 text-white rounded-lg">S</span>ushi</div>
-            <div class="">
-                <ul class="">
-                    <li class=""><a href="#home">Home</a></li>
-                    <li class=""><a href="#menu">Menu</a><i class="ri-arrow-down-line"></i></li>
-                    <li class=""><a href="#about">About Us</a></li>
-                    <li class=""><a href="#services">Services</a><i class="ri-arrow-down-line"></i></li>
-                    <li class=""><a href="#offers">Offers</a></li>
-                </ul>
-            </div>
-            <div class="">
-                <label for="search"><i class="ri-search-line"></i>                 
-                </label>
-                <input type="search" name="search" id="search">
-                <div class="">
-                    <i class="ri-shopping-bag-line"></i>
-                </div>
-                <div class="">
-                    <i class="ri-phone-line"></i>
-                    Contact
-                </div>
-            </div>
-        </nav>
+      <nav class="flex justify-around items-center">
+        <div class="font-bold text-3xl ">
+          <span class="bg-secondaryColor px-1 text-white rounded-lg">S</span
+          >ushi
+        </div>
+        <div class="absolute bg-bodyColor w-full  left-0 top-0 hidden">
+          <ul
+            class="flex flex-col justify-center items-center space-y-4 text-center font-semibold text-sm"
+          >
+            <li class="mt-4">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="#menu" class="nav__link">Menu</a>
+              <div>
+              <div class="hover:translate-y-1 duration-100 ease-in">
+                <i
+                  class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
+                  id="dropdown-icon"
+                ></i>
+              </div>
+              <div
+                class="flex flex-col font-normal text-normal hidden"
+                id="dropdown-menu"
+              >
+                <a
+                  href="#popular"
+                  class="hover:text-secondaryColor dropdown-list"
+                  >Popular</a
+                >
+                <a
+                  href="#Special"
+                  class="hover:text-secondaryColor dropdown-list"
+                  >Special</a
+                >
+              </div>
+              </div>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
+            <li class="flex justify-center">
+              <a href="#services" class="nav__link">Services</a>
+              <div>
+              <div class="hover:translate-y-1 duration-100 ease-in">
+                <i
+                  class="ri-arrow-down-s-line text-secondaryColor cursor-pointer text-lg"
+                  id="dropdown2-icon"
+                ></i>
+              </div>
+              <div
+                class="flex flex-col font-normal text-normal hidden"
+                id="dropdown2-menu"
+              >
+                <a
+                  href="#"
+                  class="hover:text-secondaryColor dropdown2-list"
+                  >Cafetering</a
+                >
+                <a
+                  href="#S"
+                  class="hover:text-secondaryColor dropdown2-list"
+                  >Fast Delivery</a
+                >
+                <a
+                  href="#S"
+                  class="hover:text-secondaryColor dropdown2-list"
+                  >Online Delivery</a
+                >
+              </div>
+              </div>
+            </li>
+            <li>
+              <a href="#offers" class="nav__link">Offers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center items-center space-x-8 ">
+          <label for="search" class="flex">
+          <input type="search" name="search" id="search" class="hidden hover:flex w-[50px] sm:w-[120px] outline-none bg-slate-200 rounded-2xl pl-2" /><i class="ri-search-line hover:text-secondaryColor"></i> </label>
+          <div class="">
+            <i class="ri-shopping-bag-line hover:text-secondaryColor""></i>
+          </div>
+          <div class="">
+            <i class="ri-phone-line"></i>
+            Contact
+          </div>
+        </div>
+      </nav>
     </header>
     <!-- main -->
     <main class="">
-      <!-- home -->  
-
+      <!-- home -->
 
       <!-- popular -->
-
 
       <!-- menu -->
 
       <!-- About -->
 
-
       <!-- Services -->
 
-
       <!-- Contact -->
-
-      
     </main>
 
     <!-- Footer -->
-    
+    <script src="js/main.js"></script>
   </body>
 </html>
