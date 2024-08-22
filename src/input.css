@@ -11,11 +11,14 @@
     @apply shadow-md shadow-sky-100;
 }
 .container{
-    @apply px-[1.5rem];
+    @apply px-[1.5rem] ;
 }
 .btn{
     @apply bg-secondaryColor px-3 py-1 rounded-2xl text-white cursor-pointer shadow-lg shadow-green-700 hover:scale-110 ease-in-out;
 }
 .subtitle{
     @apply text-subtitleColor/80 text-xs font-bold;
+}
+.title{
+    @apply font-extrabold text-3xl;
 }

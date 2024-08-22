@@ -146,7 +146,7 @@
               Where Tradition Meets Innovation!
             </p>
             <div
-              class="flex gap-2 justify-center items-center font-bold text-xl"
+              class="flex gap-2 justify-center md:justify-normal items-center font-bold text-xl"
             >
               <button class="btn">Order Now</button>
               <button
@@ -169,7 +169,7 @@
               class="absolute bottom-2"
             />
             <div
-              class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md md:-left-4 md:text-xs md:top-16"
+              class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md md:-left-4 md:text-xs md:top-16 lg:top-24 lg:left-3"
             >
               Best Sushi Ever
             </div>
@@ -179,17 +179,18 @@
 
       <!-- popular -->
       <section class="my-4" id="popular">
-        <div class="container mt-10">
+        <div class="container mt-10 md:mx-auto">
           <div class="text-center mb-6">
             <p class="subtitle mb-4">CUSTOMER FAVORITES</p>
-            <h2 class="font-extrabold text-3xl">Popular Categories</h2>
+            <h2 class="title">Popular Categories</h2>
           </div>
-          <div class="">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            <!-- card 1 -->
             <div
-              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+              class="flex flex-col justify-center items-center w-[180px] xl:w-[240px] xl:h-[250px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105"
             >
               <div
-                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 xl:w-36 px-2 py-1 mb-2"
               >
                 <img src="img/card1.png" alt="image" />
               </div>
@@ -198,11 +199,12 @@
                 <p class="text-descriptionColor">(86 dishes)</p>
               </div>
             </div>
+            <!-- card 2 -->
             <div
-              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 xl:w-[240px] xl:h-[250px]"
             >
               <div
-                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 xl:w-36 px-2 py-1 mb-2"
               >
                 <img src="img/card2.png" alt="image" />
               </div>
@@ -211,11 +213,12 @@
                 <p class="text-descriptionColor">(12 break fast)</p>
               </div>
             </div>
+            <!-- card 3 -->
             <div
-              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 xl:w-[240px] xl:h-[250px]"
             >
               <div
-                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 xl:w-36 px-2 py-1 mb-2"
               >
                 <img src="img/card3.png" alt="image" />
               </div>
@@ -224,8 +227,9 @@
                 <p class="text-descriptionColor">(Combo of 6)</p>
               </div>
             </div>
+            <!-- card 4 -->
             <div
-              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 xl:w-[240px] xl:h-[250px]"
             >
               <div
                 class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
@@ -242,6 +246,100 @@
       </section>
 
       <!-- menu -->
+      <section class="my-4 " id="menu">
+        <div class="container mt-28 md:mx-auto">
+          <div class="mb-8 flex justify-between items-center">
+            <div class="">
+              <p class="subtitle mb-4">SPECIAL DISHES</p>
+              <h2 class="title">
+                Best Dishes <br />
+                From Our Menu
+              </h2>
+            </div>
+            <div class="flex gap-6 font-bold">
+              <div class="flex justify-center items-center bg-stone-500/40 rounded-full px-3 py-1.5 text-descriptionColor "><i class="ri-arrow-left-s-line text-xl"></i></div>
+              <div class="flex justify-center items-center bg-secondaryColor rounded-full px-3 py-1.5 text-white"><i class="ri-arrow-right-s-line text-xl"></i></div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+            <!-- menu 1 -->
+            <div
+              class="flex flex-col justify-center w-[260px] xl:w-[300px] xl:h-[320px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative"
+            >
+              <div class="flex justify-center items-center w-40 mx-auto">
+                <img src="img/menu1.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-lg mb-2">Best Sushi Salad</h2>
+                <p class="text-descriptionColor text-sm font-bold mb-4">
+                  Description of the item
+                </p>
+                <div class="flex justify-between">
+                  <p class="font-bold">
+                    <span class="text-subtitleColor/70 text-sm">$</span>10.00
+                  </p>
+                  <p class="font-bold text-descriptionColor text-sm">
+                    <i class="ri-star-s-fill text-orange-400"></i>4.9
+                  </p>
+                </div>
+              </div>
+              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+                <i class="ri-heart-3-line"></i>
+              </div>
+            </div>
+            <!-- menu 2 -->
+            <div
+              class="flex flex-col justify-center w-[260px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative xl:w-[300px] xl:h-[320px]"
+            >
+              <div class="flex justify-center items-center w-40 mx-auto">
+                <img src="img/menu2.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-lg mb-2">Zen Zest Sashimi Salad</h2>
+                <p class="text-descriptionColor text-sm font-bold mb-4">
+                  Description of the item
+                </p>
+                <div class="flex justify-between">
+                  <p class="font-bold">
+                    <span class="text-subtitleColor/70 text-sm">$</span>22.00
+                  </p>
+                  <p class="font-bold text-descriptionColor text-sm">
+                    <i class="ri-star-s-fill text-orange-400"></i>4.9
+                  </p>
+                </div>
+              </div>
+              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+                <i class="ri-heart-3-line"></i>
+              </div>
+            </div>
+            <!-- menu 3 -->
+            <div
+              class="flex flex-col justify-center w-[260px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative xl:w-[300px] xl:h-[320px] "
+            >
+              <div class="flex justify-center items-center w-40 mx-auto">
+                <img src="img/menu3.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-lg mb-2">Seaside Sushi Salad</h2>
+                <p class="text-descriptionColor text-sm font-bold mb-4">
+                  Description of the item
+                </p>
+                <div class="flex justify-between">
+                  <p class="font-bold">
+                    <span class="text-subtitleColor/70 text-sm">$</span>18.00
+                  </p>
+                  <p class="font-bold text-descriptionColor text-sm">
+                    <i class="ri-star-s-fill text-orange-400"></i>4.9
+                  </p>
+                </div>
+              </div>
+              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+                <i class="ri-heart-3-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- About -->
 
