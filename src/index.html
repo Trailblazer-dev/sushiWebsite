@@ -169,7 +169,7 @@
               class="absolute bottom-2"
             />
             <div
-              class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md md:-left-4 md:text-xs md:top-16 lg:top-24 lg:left-3"
+              class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md md:-left-4 md:text-xs md:top-16 lg:top-24 lg:left-3 xl:left-20"
             >
               Best Sushi Ever
             </div>
@@ -246,7 +246,7 @@
       </section>
 
       <!-- menu -->
-      <section class="my-4 " id="menu">
+      <section class="my-4" id="menu">
         <div class="container mt-28 md:mx-auto">
           <div class="mb-8 flex justify-between items-center">
             <div class="">
@@ -257,11 +257,21 @@
               </h2>
             </div>
             <div class="flex gap-6 font-bold">
-              <div class="flex justify-center items-center bg-stone-500/40 rounded-full px-3 py-1.5 text-descriptionColor "><i class="ri-arrow-left-s-line text-xl"></i></div>
-              <div class="flex justify-center items-center bg-secondaryColor rounded-full px-3 py-1.5 text-white"><i class="ri-arrow-right-s-line text-xl"></i></div>
+              <div
+                class="flex justify-center items-center bg-stone-500/40 rounded-full px-3 py-1.5 text-descriptionColor"
+              >
+                <i class="ri-arrow-left-s-line text-xl"></i>
+              </div>
+              <div
+                class="flex justify-center items-center bg-secondaryColor rounded-full px-3 py-1.5 text-white"
+              >
+                <i class="ri-arrow-right-s-line text-xl"></i>
+              </div>
             </div>
           </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center"
+          >
             <!-- menu 1 -->
             <div
               class="flex flex-col justify-center w-[260px] xl:w-[300px] xl:h-[320px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative"
@@ -283,7 +293,9 @@
                   </p>
                 </div>
               </div>
-              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+              <div
+                class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg"
+              >
                 <i class="ri-heart-3-line"></i>
               </div>
             </div>
@@ -308,13 +320,15 @@
                   </p>
                 </div>
               </div>
-              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+              <div
+                class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg"
+              >
                 <i class="ri-heart-3-line"></i>
               </div>
             </div>
             <!-- menu 3 -->
             <div
-              class="flex flex-col justify-center w-[260px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative xl:w-[300px] xl:h-[320px] "
+              class="flex flex-col justify-center w-[260px] bg-white shadow-lg shadow-stone-500 px-4 py-6 rounded-2xl hover:scale-105 relative xl:w-[300px] xl:h-[320px]"
             >
               <div class="flex justify-center items-center w-40 mx-auto">
                 <img src="img/menu3.png" alt="image" />
@@ -333,7 +347,9 @@
                   </p>
                 </div>
               </div>
-              <div class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg">
+              <div
+                class="absolute top-0 right-0 rounded-tr-2xl rounded-bl-2xl bg-secondaryColor px-4 py-2 text-white text-lg"
+              >
                 <i class="ri-heart-3-line"></i>
               </div>
             </div>
@@ -342,6 +358,64 @@
       </section>
 
       <!-- About -->
+      <section class="my-4" id="about">
+        <div class="container mt-28 sm:mx-auto flex flex-col md:flex-row justify-center items-center md:gap-8 lg:gap-12 xl:gap-20">
+          <div class="relative mb-10 flex justify-center items-center order-2 md:order-none md:w-1/2">
+            <img src="img/about.png" alt="image" />
+            <div
+              class="absolute w-full h-2/3 bg-secondaryColor rounded-t-[5rem] bottom-5 -z-10"
+            ></div>
+            <div
+              class="absolute bg-white shadow-xl right-0 rounded-tr-xl rounded-b-xl px-2 font-bold text-sm py-1 -bottom-6"
+            >
+              Our Best Chef 😁
+            </div>
+          </div>
+          <div class="mb-4 md:w-1/2">
+            <p class="subtitle mb-10">TESTIMONIALS</p>
+            <h2 class="title tracking-widest mb-4">
+              What Our Customers Say About Us
+            </h2>
+            <p class="text-descriptionColor/80 font-bold mb-4">
+              “I had the pleasure of dining at Foodi last night, and I'm still
+              raving about the experience! The attention to detail in
+              presentation and service was impeccable”
+            </p>
+            <div class="flex">
+              <div class="flex relative">
+                <div
+                  class="w-[60px] h-[60px] relative rounded-full border-2 border-slate-100 overflow-hidden bg-orange-300/40 "
+                >
+                  <img
+                    src="img/testimonial.png"
+                    alt="image"
+                    class="-left-8 relative scale-[2.5] -bottom-7"
+                  />
+                </div>
+                <div
+                  class="w-[60px] h-[60px] relative rounded-full border-4 border-slate-100 overflow-hidden -left-4"
+                >
+                  <img
+                    src="img/testimonial2.png"
+                    alt="image"
+                    class="scale-[2.5] -bottom-6 -right-4 relative"
+                  />
+                </div>
+                <div class="w-[60px] h-[60px] relative rounded-full border-4 border-slate-100 overflow-hidden -left-8">
+                  <img src="img/testimonial3.png" alt="image" class="relative scale-[2.2] -left-4 -bottom-5" />
+                </div>
+              </div>
+              <div class="flex flex-col">
+                <h2 class="font-bold">Customer Feedback</h2>
+                <p class="font-bold text-descriptionColor text-sm">
+                  <i class="ri-star-s-fill text-orange-400"></i>4.9
+                  <span class="">(18.6k Reviews)</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Services -->
 
