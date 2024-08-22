@@ -17,7 +17,8 @@
   <body class="bg-bodyColor font-sans">
     <!-- header -->
     <header
-      class="fixed top-0 left-0 bg-bodyColor h-14 w-full z-50 items-center flex justify-center " id="header"
+      class="fixed top-0 left-0 bg-bodyColor h-14 w-full z-50 items-center flex justify-center"
+      id="header"
     >
       <nav class="flex justify-around items-center w-full sm:justify-evenly">
         <div class="font-bold text-3xl">
@@ -129,36 +130,116 @@
     <!-- main -->
     <main class="">
       <!-- home -->
-       <section class="my-4" id="home">
-        <div class="container mt-20 flex flex-col justify-center items-center">
-          <div class="">
-            <h2 class="text-3xl font-extrabold tracking-widest mb-4 text-center ">Sushi Bliss, Every Roll a Flavorful <span class="text-secondaryColor"> Kiss</span></h2>
-            <p class="text-descriptionColor text-lg mb-4">Masters of Maki: Elevate Your Taste Buds with Our Sushi Creations, Where Tradition Meets Innovation!</p>
-            <div class="flex gap-2 justify-center items-center font-bold text-xl">
-              <button class="btn ">Order Now </button>
-              <button class="text-descriptionColor hover:bg-stone-700 px-2 py-1 rounded-2xl hover:text-secondaryColor">Watch Video <i class="ri-play-large-fill bg-slate-100/80 p-2 rounded-full shadow-md shadow-stone-300 "></i></button>
+      <section class="my-4" id="home">
+        <div
+          class="container mt-20 flex flex-col md:flex-row justify-center items-center md:mt-12 md:mx-auto md:gap-6"
+        >
+          <div class="md:w-1/2">
+            <h2
+              class="text-3xl font-extrabold tracking-widest mb-4 text-center md:text-left"
+            >
+              Sushi Bliss, Every Roll a Flavorful
+              <span class="text-secondaryColor"> Kiss</span>
+            </h2>
+            <p class="text-descriptionColor text-lg mb-4 md:mb-6">
+              Masters of Maki: Elevate Your Taste Buds with Our Sushi Creations,
+              Where Tradition Meets Innovation!
+            </p>
+            <div
+              class="flex gap-2 justify-center items-center font-bold text-xl"
+            >
+              <button class="btn">Order Now</button>
+              <button
+                class="text-descriptionColor hover:bg-stone-700 px-2 py-1 rounded-2xl hover:text-secondaryColor md:px-4 md:py-2"
+              >
+                Watch Video
+                <i
+                  class="ri-play-large-fill bg-slate-100/80 p-2 rounded-full shadow-md shadow-stone-300"
+                ></i>
+              </button>
             </div>
           </div>
-          <div class="flex flex-col justify-center items-center relative">
-            <img src="img/home.png" alt="image">
-            <img src="img/2 Items Below Sushi.png" alt="image" class="absolute bottom-2">
-            <div class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md">Best Sushi Ever</div>
+          <div
+            class="flex flex-col justify-center items-center relative md:w-1/2"
+          >
+            <img src="img/home.png" alt="image" />
+            <img
+              src="img/2 Items Below Sushi.png"
+              alt="image"
+              class="absolute bottom-2"
+            />
+            <div
+              class="absolute bg-[#FBFBFB] px-4 py-2 text-subtitleColor/60 rounded-tl-xl rounded-bl-xl rounded-tr-3xl top-20 -left-2 shadow-md md:-left-4 md:text-xs md:top-16"
+            >
+              Best Sushi Ever
+            </div>
           </div>
         </div>
-       </section>
+      </section>
 
       <!-- popular -->
-       <section class="my-4" id="popular">
+      <section class="my-4" id="popular">
         <div class="container mt-10">
-          <div class="text-center">
+          <div class="text-center mb-6">
             <p class="subtitle mb-4">CUSTOMER FAVORITES</p>
             <h2 class="font-extrabold text-3xl">Popular Categories</h2>
           </div>
           <div class="">
-            
+            <div
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+            >
+              <div
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+              >
+                <img src="img/card1.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-black/90">Main Dish</h2>
+                <p class="text-descriptionColor">(86 dishes)</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+            >
+              <div
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+              >
+                <img src="img/card2.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-black/90">Break Fast</h2>
+                <p class="text-descriptionColor">(12 break fast)</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+            >
+              <div
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+              >
+                <img src="img/card3.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-black/90">Sushi Combo</h2>
+                <p class="text-descriptionColor">(Combo of 6)</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-[180px] bg-white shadow-lg shadow-stone-400 px-4 py-6 rounded-2xl"
+            >
+              <div
+                class="flex justify-center items-center bg-[#C1F1C6] rounded-full w-24 px-2 py-1 mb-2"
+              >
+                <img src="img/card4.png" alt="image" />
+              </div>
+              <div class="">
+                <h2 class="font-bold text-black/90">Browse All</h2>
+                <p class="text-descriptionColor">(255 Items)</p>
+              </div>
+            </div>
           </div>
         </div>
-       </section>
+      </section>
 
       <!-- menu -->
 
